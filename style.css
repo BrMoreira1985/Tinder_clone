@@ -44,6 +44,12 @@ body{
     align-items: center;
 }
 
+.spacing{
+    display: flex;
+    height: 12px;
+    width: 98vw;
+}
+
 .photo{
     display: flex;
     background: url(../img/jeffery-erhunse-vp9mRauo68c-unsplash.jpg) center center/cover;
@@ -122,6 +128,10 @@ body{
 
 /* Media query */
 @media(min-width: 1000px){
+    .card{
+        height: calc(85vh - 44px);
+    }
+
     .photo{
         width: 367px;
         height: 684px;
